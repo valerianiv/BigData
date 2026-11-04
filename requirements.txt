@@ -1,0 +1,5 @@
+pyspark==3.5.1
+numpy>=1.26
+kafka-python==2.0.2
+telethon>=1.36
+jupyter

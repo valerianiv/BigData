@@ -1,0 +1,7 @@
+# Одиночный брокер Kafka в режиме KRaft (без ZooKeeper), доступен на localhost:9092
+services:
+  kafka:
+    image: apache/kafka:3.7.0
+    container_name: kafka
+    ports:
+      - "9092:9092"

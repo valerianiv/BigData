@@ -1,0 +1,23 @@
+# Данные и результаты расчётов
+data/
+output/
+spark-warehouse/
+metastore_db/
+derby.log
+*.parquet
+*.csv
+*.json
+!**/package.json
+
+# Секреты и сессии Telegram
+.env
+*.session
+*.session-journal
+stop-words-russian.txt
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.ipynb_checkpoints/
